@@ -1,15 +1,23 @@
 [
     {
         "name": "kusama",
-        "url": "https://kusama.indexer.gc.subsquid.io/v4/graphql"
+        "url": "https://app.gc.subsquid.io/beta/kusama-explorer/v1/graphql"
     },
     {
-        "name": "kusamaExplorer",
-        "url": "https://app.gc.subsquid.io/beta/kusama-explorer/v1/graphql"
+        "name": "polkadot",
+        "url": "https://app.gc.subsquid.io/beta/polkadot-explorer/v1/graphql"
         
     },
     {
-        "name": "polkadotExplorer",
-        "url": "https://app.gc.subsquid.io/beta/polkadot-explorer/v1/graphql"
+        "name": "hydradx",
+        "url": "https://app.gc.subsquid.io/beta/hydradx-explorer/v1/graphql"
+    },
+    {
+        "name": "moonbeam",
+        "url": "https://app.gc.subsquid.io/beta/moonbeam-explorer/v1/graphql"
+    },
+    {
+        "name": "moonriver",
+        "url": "https://app.gc.subsquid.io/beta/moonriver-explorer/v1/graphql"
     }
 ]

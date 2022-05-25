@@ -35,12 +35,7 @@ export class Endpoint {
     app.use(cors({
       origin: '*'
     }))
-    app.use("/graphql", graphqlHTTP({ schema: gatewaySchema, graphiql: false  }));
-    app.get('/console', (req, res) => {
-      const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
-      res.redirect("https://graphql-console.subsquid.io/?graphql_api="+encodeURIComponent(fullUrl))
-    })
-    //setupGraphiqlConsole(app)
+    app.use("/graphql", graphqlHTTP({ schema: gatewaySchema, graphiql: { headerEditorEnabled: true}  }));
     return app.listen(port);
   }
 
