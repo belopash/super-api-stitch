@@ -1,23 +1,26 @@
 [
-    {
-        "name": "kusama",
-        "url": "https://app.gc.subsquid.io/beta/kusama-explorer/v2/graphql"
-    },
-    {
-        "name": "polkadot",
-        "url": "https://app.gc.subsquid.io/beta/polkadot-explorer/v2/graphql"
-        
-    },
-    {
-        "name": "hydradx",
-        "url": "https://app.gc.subsquid.io/beta/hydradx-explorer/v2/graphql"
-    },
-    {
-        "name": "moonbeam",
-        "url": "https://app.gc.subsquid.io/beta/moonbeam-explorer/v2/graphql"
-    },
-    {
-        "name": "acala",
-        "url": "https://app.gc.subsquid.io/beta/acala-explorer/v2/graphql"
-    }
+  {
+    "name": "kusama",
+    "url": "https://app.gc.subsquid.io/beta/kusama-explorer/v2/graphql"
+  },
+  {
+    "name": "polkadot",
+    "url": "https://app.gc.subsquid.io/beta/polkadot-explorer/v2/graphql"
+  },
+  {
+    "name": "hydradx",
+    "url": "https://app.gc.subsquid.io/beta/hydradx-explorer/v2/graphql"
+  },
+  {
+    "name": "moonbeam",
+    "url": "https://app.gc.subsquid.io/beta/moonbeam-explorer/v2/graphql"
+  },
+  {
+    "name": "acala",
+    "url": "https://app.gc.subsquid.io/beta/acala-explorer/v2/graphql"
+  },
+  {
+    "name": "astar",
+    "url": "https://app.gc.subsquid.io/beta/astar-explorer/v2/graphql"
+  }
 ]
