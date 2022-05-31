@@ -91,14 +91,7 @@ export class Endpoint {
           return this.createAndTransformSubschema(subschema);
         })
       ),
-      mergeTypes: true,
-      typeMergingOptions: {
-        typeCandidateMerger: (candidates) => candidates[0],
-        typeDescriptionsMerger: (candidates) => candidates[0].type.description,
-        fieldConfigMerger: (candidates) => candidates[0].fieldConfig,
-        inputFieldConfigMerger: (candidates) => candidates[0].inputFieldConfig,
-        enumValueConfigMerger: (candidates) => candidates[0].enumValueConfig,
-      },
+      mergeTypes: false,
     });
     return gatewaySchema;
   }
